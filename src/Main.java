@@ -24,7 +24,13 @@ public class Main {
         stack.printme();
         stack.pop();
         stack.printme();
+        stack.pop();
+        stack.printme();
         stack = stack.reverse(stack);
+        stack.printme();
+        stack.pop();
+        stack.printme();
+        stack.pop();
         stack.printme();
     }
 

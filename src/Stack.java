@@ -39,7 +39,7 @@ public class Stack {
 
     public ReverseStack reverse(Stack stack) {
         ReverseStack reverseStack = new ReverseStack();
-        while (head.prev != null) {
+        while (head != null) {
             newHead = reverseHead(stack);
             reverseStack.push(newHead.value);
 
